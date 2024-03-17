@@ -1,4 +1,4 @@
-package es.samebro.api.entities;
+package es.samebro.backoffice.entities;
 
 import java.io.Serializable;
 import javax.persistence.Column;

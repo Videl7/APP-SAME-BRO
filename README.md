@@ -1,4 +1,4 @@
-# Samebro Backend
+# Samebro Backoffice
 
 ## Arrancar
 
@@ -6,15 +6,19 @@ docker compose up --build
 
 ## Acceso
 
-http://localhost:8080/api
+http://localhost:8080/backoffice
 
-### Test
+### Front-End Backoffice
 
-http://localhost:8080/api/test
+http://localhost:8080/backoffice
+
+### Test API
+
+http://localhost:8080/backoffice/api/test
 
 #### Comprobar conexión a DB
 
-http://localhost:8080/api/test/business
+http://localhost:8080/backoffice/api/test/business
 
 ## MySQL
 

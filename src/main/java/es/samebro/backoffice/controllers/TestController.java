@@ -1,4 +1,4 @@
-package es.samebro.api.controllers;
+package es.samebro.backoffice.controllers;
 
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
@@ -8,14 +8,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import es.samebro.api.services.BusinessService;
-import es.samebro.api.entities.Business;
+import es.samebro.backoffice.services.BusinessService;
+import es.samebro.backoffice.entities.Business;
 import java.util.ArrayList;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @CrossOrigin
 @RestController
-@RequestMapping("/test")
+@RequestMapping("/api/test")
 public class TestController {
 
   @Autowired

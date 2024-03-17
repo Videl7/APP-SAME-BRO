@@ -1,4 +1,4 @@
-package es.samebro.api;
+package es.samebro.backoffice;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

@@ -1,4 +1,4 @@
-package es.samebro.api;
+package es.samebro.backoffice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

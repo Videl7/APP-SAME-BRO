@@ -9,11 +9,11 @@
 		<relativePath/>
 	</parent>
 	<groupId>es.samebro</groupId>
-	<artifactId>api</artifactId>
+	<artifactId>backoffice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>SamebroAPI</name>
-	<description>Backend de la app SameBro</description>
+	<name>SamebroBack</name>
+	<description>Backoffice de la app SameBro</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

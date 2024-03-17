@@ -1,7 +1,7 @@
 version: "3.3"
 services:
-  api:
-    container_name: samebro_backend
+  backoffice:
+    container_name: samebro_backoffice
     build: .
     restart: always
     image: tomcat:8.5-jdk11-openjdk-slim
@@ -14,9 +14,9 @@ services:
     networks:
       - samebro-network
     expose:
-      - ${BACKEND_PORT}
+      - ${BACKOFFICE_PORT}
     ports:
-      - ${BACKEND_PORT}:8080
+      - ${BACKOFFICE_PORT}:8080
 
 networks:
   samebro-network:

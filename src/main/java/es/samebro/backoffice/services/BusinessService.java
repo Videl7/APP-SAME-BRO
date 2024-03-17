@@ -1,6 +1,6 @@
-package es.samebro.api.services;
+package es.samebro.backoffice.services;
 
-import es.samebro.api.entities.Business;
+import es.samebro.backoffice.entities.Business;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import javax.persistence.EntityManager;
